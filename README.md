@@ -1,2 +1,2 @@
 # rocket-restful-api
-RESTful Web API with Rust &amp; Rocket ��
+RESTful Web API with Rust &amp; Rocket 🚀
