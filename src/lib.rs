@@ -3,7 +3,7 @@ extern crate rocket;
 
 pub mod api;
 pub mod model;
-pub mod web;
+pub mod views;
 
 #[launch]
 pub fn rocket() -> _ {
@@ -12,7 +12,7 @@ pub fn rocket() -> _ {
     let mut rc = rocket::build().manage(app_data);
 
     // mount web views (/)
-    rc = web::build_web(rc, "/");
+    rc = views::build_web(rc, "/");
     // mount the api (/api)
     rc = api::build_api(rc, "/api");
 
