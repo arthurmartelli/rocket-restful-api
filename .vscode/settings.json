@@ -6,5 +6,6 @@
     "healthchecker",
     "uuid",
     "Uuid"
-  ]
+  ],
+  "rust-analyzer.linkedProjects": [".\\Cargo.toml"]
 }
